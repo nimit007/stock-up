@@ -7,14 +7,14 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+const geistMono = Geist_Mono({  
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Stock Up",
-  description: "track real time stock prices, get personalized alerts and get detailed insights",
+  description: "track real time stock prices, get personalized alerts and get detailed insights ",
 };
 
 export default function RootLayout({
